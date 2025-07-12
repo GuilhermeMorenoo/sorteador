@@ -1,6 +1,7 @@
-function sortearNumero() {
-    const min = parseInt(document.getElementById("input-min").value)
-    const max = parseInt(document.getElementById("input-max").value)
+function generateNumber() {
+
+    const min = Math.ceil(document.getElementById("input-min").value)
+    const max = Math.floor(document.getElementById("input-max").value)
 
     if (isNaN(min) || isNaN(max)) {
         alert("Por favor, digite os dois números.")
@@ -12,7 +13,7 @@ function sortearNumero() {
         return
     }
 
-    const sorteado = Math.floor(Math.random() * (max - min + 1)) + min
+    const result = Math.floor(Math.random() * (max - min + 1)) + min
 
-    document.getElementById("resultado").innerHTML = sorteado
+    document.getElementById("result").innerHTML = result
 }
