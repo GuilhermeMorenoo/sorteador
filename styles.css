@@ -12,11 +12,11 @@ body {
 
 .img-logo {
     display: block;
-    margin: 50px auto;
+    margin: 45px auto;
 }
 
 h1 {
-    width: 299px;
+    width: 276px;
     height: 20px;
     color: #FFF;
     font-size: 32px;
@@ -27,7 +27,7 @@ h1 {
 div {
     display: flex;
     flex-direction: row;
-    margin: 50px auto;
+    margin: 40px auto 20px;
     justify-content: center;
 }
 
@@ -58,6 +58,19 @@ button {
     border: none;
     cursor: pointer;
     color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,  0.5);
+    color: #000000;
     font-size: 36px;
     font-weight: 700;
 }
